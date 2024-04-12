@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { onCloseDateModal, onOpenDateModal } from '../store';
 
 
-export const useUIStore = () => {
+export const useUiStore = () => {
 
     const dispatch = useDispatch();
 

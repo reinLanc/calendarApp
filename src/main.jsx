@@ -1,10 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './styles.css'
-import { Calendar } from './Calendar.jsx'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+import { CalendarApp } from './CalendarApp';
+import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Calendar />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <CalendarApp />
+  // </React.StrictMode>
 )
